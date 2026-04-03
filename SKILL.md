@@ -1,7 +1,7 @@
 ---
 slug: photo-ocr
 name: Photo OCR
-version: 0.2.0
+version: 0.2.1
 description: >
   OCR text recognition from images, photos, and screenshots. Extract readable text from any image file. Photo OCR, image text recognition, picture to text, screenshot OCR, image text extractor, photo text reader, camera OCR, snap to text, image character recognition, visual text extraction, photograph text mining, clipboard image OCR, screen capture text.
 
