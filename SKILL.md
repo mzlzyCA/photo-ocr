@@ -1,35 +1,28 @@
 ---
-name: photo-ocr
-displayName: Photo OCR
+slug: photo-ocr
+name: Photo OCR
+version: 0.2.0
 description: >
-  OCR text recognition from images, photos, and screenshots. Extract text from pictures, image to text converter, photo text reader, screenshot text extractor, picture OCR, image character recognition, camera capture text extraction, photograph text scanner, visual text recognition, image text digitizer, snap-to-text converter.
+  OCR text recognition from images, photos, and screenshots. Extract readable text from any image file. Photo OCR, image text recognition, picture to text, screenshot OCR, image text extractor, photo text reader, camera OCR, snap to text, image character recognition, visual text extraction, photograph text mining, clipboard image OCR, screen capture text.
 
-  Use when asked to 'extract text from this image', 'OCR this photo', 'read text from screenshot', 'what does this picture say', 'convert image to text', 'grab text from this photo', 'I took a picture of a document and need the text', 'recognize text in this image', 'digitize text from a photo'.
+  Use when asked to 'read text from an image', 'OCR this photo', 'extract text from screenshot', 'what does this image say', 'convert picture to text', 'recognize text in photo', 'get text from a camera shot'. Solves the problem of text locked inside images — whiteboard photos, screenshots, book pages, signs, receipts, and handwritten notes that need to be digitized.
 
-  Solves the problem of text trapped in images — photos of whiteboards, screenshots of error messages, pictures of receipts, camera captures of book pages, or snapshots of signs. No more retyping text you can see but can't copy. Handles multiple languages, handwriting, and low-quality images.
+  图片OCR, 照片文字识别, 截图文字提取, 图像文本识别, 拍照取字, 图片转文字, 屏幕截图OCR, 手写识别.
 
-  图片OCR, 照片文字识别, 截图文字提取, 图像文本识别, 拍照取字, 图片转文字, 手写识别, 屏幕截图OCR.
-
-  Powered by MinerU document processing engine with advanced OCR capabilities for accurate text recognition from any image source.
+  Powered by MinerU document parsing engine with advanced OCR capabilities for multi-language text recognition, handwriting detection, and complex layout understanding. Handles photos from cameras, phones, screenshots, scanned images, whiteboard captures, and any raster image format (PNG, JPG, TIFF, BMP, WebP). Ideal for digitizing documents, extracting data from photos, and making visual content searchable.
 tags:
   - ocr
   - image
   - photo
-  - screenshot
   - text-recognition
-  - picture
-  - camera
-  - digitize
+  - screenshot
+  - extraction
   - mineru
+  - camera
   - handwriting
-  - extract
+  - digitize
+  - picture
   - visual
 ---
 
-# Photo OCR
-
-Extract text from images, photos, and screenshots using the mineru tool. Handles printed text, handwriting, and multiple languages.
-
-## Usage
-
-Use the mineru tool to process the image and perform OCR text recognition. Supports JPEG, PNG, TIFF, BMP, and other common image formats.
+Use the mineru tool to perform OCR on the provided image file. Recognize and extract all visible text from the image, including printed text, handwriting, and text in complex layouts. Return the extracted text in reading order with proper formatting preserved.
